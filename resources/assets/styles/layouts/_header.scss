@@ -1,0 +1,154 @@
+/* strat main nav */
+
+.top-bar {
+  background: #ededed;
+  color: #898989;
+  padding-top: 5px;
+}
+
+.top-bar .col-sm {
+  display: flex;
+  flex-grow: 1;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.top-bar .col-sm:last-of-type {
+  justify-content: flex-end;
+}
+
+.top-bar span {
+  font-size: 13px;
+  margin: 0 4px;
+}
+
+.top-bar span .fa,
+.top-bar span .fas {
+  color: #75a826;
+  display: inline-block;
+}
+
+.bar-icons {
+  margin: 0;
+}
+
+.top-bar .text-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-bar .text-right ul li {
+  margin: 0 11px;
+}
+
+.top-bar .text-right ul li a {
+  color: #073f23;
+}
+
+/* strat main nav */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  color: #000;
+  display: block;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.navbar-toggler {
+  padding: 5px 5px;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #0030de00;
+  border: 1px solid #a91313;
+  border-radius: 1.25rem;
+}
+
+/* slider area */
+
+.carousel-caption {
+  position: absolute;
+  right: 56%;
+  bottom: 42px;
+  left: 10%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 65px;
+  color: #fff;
+  text-align: center;
+}
+
+.cap {
+  float: left;
+  margin-bottom: 25px;
+  line-height: 50px;
+  text-align: left;
+}
+
+.learn {
+  border: 1px solid;
+  float: left;
+  padding: 5px 28px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 55px;
+  left: -45px;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 13%;
+  list-style: none;
+  justify-content: left;
+}
+
+/* media area */
+
+.media {
+  padding: 0;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 0 !important;
+}
+
+.media-body {
+  padding: 25px;
+  line-height: 25px;
+  background-color: #f8f9fa;
+}
+
+.read {
+  border: 1px solid #1bb920;
+  float: right;
+  padding: 5px 16px;
+  color: #1bb920;
+}
+
+.m-content {
+  padding-top: 30px;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.mt-0 {
+  color: #1bb920;
+  font-weight: bold;
+}
